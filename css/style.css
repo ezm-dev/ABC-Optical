@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+section{
+    scroll-margin-top: 80px;
+}
+
+body,h1,ul {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+/* Header */
+header {
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  /* height:auto; */
+    width: 100%;
+    padding: 15px;
+    background-color: #274c77;
+    z-index: 1000;
+
+}
+
+/* Design the logo throgh border options */
+header h1 {
+    /* margin: 5px 0px 5px 5px ; */
+    color: #e7ecef;
+    background-color: #6096ba;
+    border: 2px white dashed;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+
+  /* flex-grow: 0;............ */
+    
+}
+header a {
+    text-decoration: none;
+    color: #e7ecef;
+    padding: 0px;
+}
+
+ 
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: #274c77;
+    
+}
+
+
+nav ul li a {
+    /* display: inline-block; */
+    text-decoration: none;
+    color: #e7ecef;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 1.25em ;
+    margin-right: 30px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #6096ba;
+    border-radius: 5px;
+    color: #e7ecef;
+}
+
+
+/* Hide checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+
+header label{
+    display: none;
+    font-size: 2em;
+    /* cursor: pointer; */
+}
+label span {
+    color: white;
+}
+
+
+
+
+/* start after nav------------ */
+h2:nth-of-type(1) {
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+
+
+/* article  -  */
+article {
+    background-color: #e7ecef;
+    border: 1px solid #274c77;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article:hover {
+    transform: scale(1.05);
+
+}
+
+
+/* dosn't fit for alll sections, so select each section and add its attributes */
+/* section:nth-of-type(n){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  max-width: 100vw;
+  min-height: 100vh;
+   padding:5px; 
+  color:purple;
+} */
+
+
+
+
+/* Alternate background colors */
+/* Hero Section - Best seller */
+section:nth-of-type(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    max-width: 100vw;
+    background: url('../img/bg-black-glasses-640-427-60op.jpg') no-repeat center center/cover;
+}
+
+/* glasses  section*/
+section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e7ecef;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+/* sunglasses section */
+section:nth-of-type(3) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding-top: 30px;
+    background: url('../img/bg-black-glasses-640-427-60op.jpg') no-repeat center center/cover;
+}
+
+/* Contact Lenses section */
+section:nth-of-type(4) {
+    background-color: #a3cef1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+/* services */
+section:nth-of-type(5) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    text-align: center;
+    max-width: 100vw;
+    min-height: 100vh;
+    background: url('../img/bg-kid-wearing-glasses-640-427-60-40op.jpg') no-repeat center center/cover;
+
+}
+/* contact us */
+section:nth-of-type(6) {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #e7ecef;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #8b8c89;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+
+/* Responsive navigation for small screens 750*/
+@media (max-width: 768px) {
+
+   header label{
+    display: block;
+   }
+
+   /* Nav display none */
+   nav ul {
+    display: none;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap:10px; */
+    background-color: #274c77;
+    position: fixed;
+    top: 77px; 
+    left: 0;
+    width: 100%;
+    /* z-index: 5000;  */
+ 
+}
+nav ul li {
+    text-align: center;
+    margin: 10px 0;
+}
+ /* Show the menu when the checkbox is checked */
+ input[type="checkbox"]:checked ~ nav ul {
+    display: flex;
+}
+
+
+
+
+}
