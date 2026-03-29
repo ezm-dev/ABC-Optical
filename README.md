@@ -8,4 +8,4 @@ One page website
 <img width="680" height="460" alt="5- Accessibility check results" src="https://github.com/user-attachments/assets/7e393b4d-a885-40ec-be00-b273f3a66b6a" />
 
 # CSS Testing 
-<img width="680" height="460" alt="5- Accessibility check results" src="https://github.com/user-attachments/assets/6e429e6e-939e-4948-82b7-88bb42f421d1" />
+<img width="680" height="488" alt="4- CSS after validation" src="https://github.com/user-attachments/assets/9057197d-99a9-4f49-9a0a-e27ec7f5d752" />
