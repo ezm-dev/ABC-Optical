@@ -1,6 +1,6 @@
 # ABC-Optical
 
--Achieving a responsive and accessible single page website for “ABC Optical” optical store using HTML, CSS, JavaScript.
+-Achieving a responsive and accessible single page website for optical store using HTML, CSS, JavaScript.
 -Browsing easily different types of glasses and Services they offer.
 -Checking the location and the working hours in “Contact us”.
 
