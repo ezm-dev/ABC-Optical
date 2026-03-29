@@ -1,5 +1,8 @@
 # ABC-Optical
-One page website
+
+-Achieving a responsive and accessible single page website for “ABC Optical” optical store using HTML, CSS, JavaScript.
+-Browsing easily different types of glasses and Services they offer.
+-Checking the location and the working hours in “Contact us”.
 
 # ABC-Optical Wireframe
 <img width="1600" height="3060" alt="ABC Optical - Wireframe" src="https://github.com/user-attachments/assets/139f341a-09ae-403f-adf3-8f5ffbb876a6" />
